@@ -28,6 +28,9 @@
 
 <body data-spy="scroll" data-target=".navbar" data-offset="51">
     	<!-- LOADER -->
+    <!-- <div class="loader_bg">
+      <div class="loader"><img src="img/loading.gif" alt="#" /></div>
+    </div> -->
     <div id="loader">
   <div class="loader-content">
     <h1>Gabriel &amp; Paola</h1>
@@ -46,17 +49,17 @@
         <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
             <div class="navbar-nav ml-auto py-0">
                 <a href="#home" class="nav-item nav-link active">Inicio</a>
-                <a href="#about" class="nav-item nav-link">Nosotros</a>
                 <a href="#story" class="nav-item nav-link">Historia</a>
                 <a href="#gallery" class="nav-item nav-link">Galeria</a>
+                <a href="#event" class="nav-item nav-link">Evento</a>
             </div>
             <a href="index.html" class="navbar-brand mx-5 d-none d-lg-block">
                 <h1 class="font-secondary text-white mb-n2">Gabriel <span class="text-primary">&</span> Paola</h1>
             </a>
             <div class="navbar-nav mr-auto py-0">
                 <a href="#family" class="nav-item nav-link">Direccion</a>
-                <a href="#event" class="nav-item nav-link">Evento</a>
-                <a href="#rsvp" class="nav-item nav-link">RSVP</a>
+                <a href="#rsvp" class="nav-item nav-link">Confirmar</a>
+                <a href="#regalos" class="nav-item nav-link">Regalos</a>
                 <a href="#contact" class="nav-item nav-link">Contacto</a>
             </div>
         </div>
@@ -80,7 +83,7 @@
                                 <span></span>
                                 <audio
                           id="musicControl"
-                          src="img/Don Omar - Guaya Guaya (Audio).mp3"
+                          src="img/Don´t stop me now (Piano y voz).mp3"
                         ></audio>
                             </button>
                         </div>
@@ -98,7 +101,7 @@
                                 <span></span>
                                 <audio
                           id="musicControl"
-                          src="img/Don Omar - Guaya Guaya (Audio).mp3"
+                          src="img/Don´t stop me now (Piano y voz).mp3"
                         ></audio>
                             </button>
                         </div>
@@ -119,76 +122,7 @@
     </div>
     <!-- Carousel End -->
 
-
-    <!-- Video Modal Start -->
-    <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>        
-                    <!-- 16:9 aspect ratio -->
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Video Modal End -->
-
-
-    <!-- About Start -->
-    <div class="container-fluid py-5" id="about">
-        <div class="container py-5">
-            <div class="section-title position-relative text-center">
-                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Nosotros</h6>
-                <h1 class="font-secondary display-4">Novio & Novia</h1>
-                <i class="far fa-heart text-dark"></i>
-            </div>
-            <div class="row m-0 mb-4 mb-md-0 pb-2 pb-md-0">
-                <div class="col-md-6 p-0 text-center text-md-right">
-                    <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-5">
-                        <h3 class="mb-3">El novio</h3>
-                        <p>Lorem elitr magna stet rebum dolores sed. Est stet labore est lorem lorem at amet sea, eos tempor rebum, labore amet ipsum sea lorem, stet rebum eirmod amet. Kasd clita kasd stet amet est dolor elitr.</p>
-                        <h3 class="font-secondary font-weight-normal text-muted mb-3"><i class="fa fa-male text-primary pr-3"></i>Gabriel</h3>
-                        <div class="position-relative">
-                            <a class="btn btn-outline-primary btn-square mr-1" href="#"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-outline-primary btn-square mr-1" href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-primary btn-square mr-1" href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a class="btn btn-outline-primary btn-square" href="#"><i class="fab fa-instagram"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 p-0" style="min-height: 400px;">
-                    <img class="position-absolute w-100 h-100" src="img/about-1.jpg" style="object-fit: cover;">
-                </div>
-            </div>
-            <div class="row m-0">
-                <div class="col-md-6 p-0" style="min-height: 400px;">
-                    <img class="position-absolute w-100 h-100" src="img/about-2.jpg" style="object-fit: cover;">
-                </div>
-                <div class="col-md-6 p-0 text-center text-md-left">
-                    <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-5">
-                        <h3 class="mb-3">La novia</h3>
-                        <p>Lorem elitr magna stet rebum dolores sed. Est stet labore est lorem lorem at amet sea, eos tempor rebum, labore amet ipsum sea lorem, stet rebum eirmod amet. Kasd clita kasd stet amet est dolor elitr.</p>
-                        <h3 class="font-secondary font-weight-normal text-muted mb-3"><i class="fa fa-female text-primary pr-3"></i>Paola</h3>
-                        <div class="position-relative">
-                            <a class="btn btn-outline-primary btn-square mr-1" href="#"><i class="fab fa-instagram"></i></a>
-                            <a class="btn btn-outline-primary btn-square mr-1" href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-primary btn-square mr-1" href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a class="btn btn-outline-primary btn-square" href="#"><i class="fab fa-instagram"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- About End -->
-
-
-    <!-- Story Start -->
+   <!-- Story Start -->
     <div class="container-fluid py-5" id="story">
         <div class="container pt-5 pb-3">
             <div class="section-title position-relative text-center">
@@ -203,7 +137,7 @@
                     </div>
                     <div class="col-md-6 text-center text-md-left">
                         <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4 ml-md-3">
-                            <h4 class="mb-2">First Meet</h4>
+                            <h4 class="mb-2">Primer Encuentro</h4>
                             <p class="text-uppercase mb-2">01 Jan 2050</p>
                             <p class="m-0">Lorem elitr magna stet rebum dolores sed. Est stet labore est lorem lorem at amet sea, eos tempor rebum, labore amet ipsum sea lorem, stet rebum eirmod amet. Kasd clita kasd stet amet est dolor elitr.</p>
                         </div>
@@ -212,7 +146,7 @@
                 <div class="row">
                     <div class="col-md-6 text-center text-md-right">
                         <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4 mr-md-3">
-                            <h4 class="mb-2">First Date</h4>
+                            <h4 class="mb-2">Primera Cita</h4>
                             <p class="text-uppercase mb-2">01 Jan 2050</p>
                             <p class="m-0">Lorem elitr magna stet rebum dolores sed. Est stet labore est lorem lorem at amet sea, eos tempor rebum, labore amet ipsum sea lorem, stet rebum eirmod amet. Kasd clita kasd stet amet est dolor elitr.</p>
                         </div>
@@ -227,7 +161,7 @@
                     </div>
                     <div class="col-md-6 text-center text-md-left">
                         <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4 ml-md-3">
-                            <h4 class="mb-2">Proposal</h4>
+                            <h4 class="mb-2">Propuesta</h4>
                             <p class="text-uppercase mb-2">01 Jan 2050</p>
                             <p class="m-0">Lorem elitr magna stet rebum dolores sed. Est stet labore est lorem lorem at amet sea, eos tempor rebum, labore amet ipsum sea lorem, stet rebum eirmod amet. Kasd clita kasd stet amet est dolor elitr.</p>
                         </div>
@@ -236,7 +170,7 @@
                 <div class="row">
                     <div class="col-md-6 text-center text-md-right">
                         <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4 mr-md-3">
-                            <h4 class="mb-2">Enagagement</h4>
+                            <h4 class="mb-2">Compromiso</h4>
                             <p class="text-uppercase mb-2">01 Jan 2050</p>
                             <p class="m-0">Lorem elitr magna stet rebum dolores sed. Est stet labore est lorem lorem at amet sea, eos tempor rebum, labore amet ipsum sea lorem, stet rebum eirmod amet. Kasd clita kasd stet amet est dolor elitr.</p>
                         </div>
@@ -414,29 +348,62 @@
             </div>
         </div>
     </div>
-
+  <!-- RSVP End -->
+  <!-- AGENDAR FECHA start -->
     <div class="container-fluid py-5" id="rsvp">
         <div class="container py-5">
             <div>
-                            <div class="section-title position-relative text-center">
-                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Sumalo a tu calendario</h6>
-                <h1 class="font-secondary display-4">Guardar la fecha 💍</h1>
-                <i class="far fa-heart text-dark"></i>
-            </div>
-            <div class="row justify-content-center">
-                <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Gabriel+%26+Paola+-+Boda
-                    &dates=20261113T190000Z/20261114T060000Z
-                    &details=Te+esperamos+para+celebrar+nuestra+boda
-                    &location=Gral+Savio+1080"
-                    target="_blank">
-                    <button class="btn btn-primary font-weight-bold py-3 px-5"> Agendar</button>
-                </a>
-            </div>
+                <div class="section-title position-relative text-center">
+                    <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Sumalo a tu calendario</h6>
+                    <h1 class="font-secondary display-4">Guardar la fecha 💍</h1>
+                    <i class="far fa-heart text-dark"></i>
+                </div>
+                <div class="row justify-content-center">
+                    <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Gabriel+%26+Paola+-+Boda
+                        &dates=20261113T190000Z/20261114T060000Z
+                        &details=Te+esperamos+para+celebrar+nuestra+boda
+                        &location=Gral+Savio+1080"
+                        target="_blank">
+                        <button class="btn btn-primary font-weight-bold py-3 px-5"> Agendar</button>
+                    </a>
+                </div>
 
             </div>
         </div>
     </div>
-    <!-- RSVP End -->
+    <!-- AGENDAR FECHA  End -->
+
+      <!-- _REGALOS start -->
+    <div class="container-fluid py-5" id="regalos">
+        <div class="container py-5">
+            <div>
+                <div class="section-title position-relative text-center">
+                    <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Regalos</h6>
+                    <h1 class="font-secondary display-4">Si estas pensando que regalar🎁</h1>
+                    <i class="far fa-heart text-dark"></i>
+                </div>
+                <div class="row justify-content-center">
+                    <p class="text-center text-muted mb-2">
+                        Si querés ayudarnos con este nuevo comienzo,
+                        <br>
+                        <strong>tocá para copiar nuestro CBU</strong> 💝
+                    </p>
+                    <div 
+                        class="border rounded-3 p-3 text-center fw-semibold"
+                        style="cursor: pointer;"
+                        onclick="copyCBU()"
+                        >
+                        <span id="cbu">gcascallares.mp</span>
+                        <div id="copiedMsg" class="text-success mt-2 d-none">
+                            Copiado ✨
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- _REGALOS  End -->
 
 
     <!-- Footer Start -->
@@ -500,6 +467,19 @@
 
     window.open(url, "_blank");
   }
+
+  function copyCBU() {
+  const cbu = document.getElementById("cbu").innerText;
+  navigator.clipboard.writeText(cbu).then(() => {
+    const msg = document.getElementById("copiedMsg");
+    msg.classList.remove("d-none");
+
+    setTimeout(() => {
+      msg.classList.add("d-none");
+    }, 2000);
+  });
+}
+  
 </script>
 
     <!-- JavaScript Libraries -->
@@ -515,6 +495,4 @@
     <script src="js/main.js"></script>
 </body>
 
-
 </html>
-
